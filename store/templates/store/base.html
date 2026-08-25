@@ -1,0 +1,4 @@
+{% load static %}
+<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>ShopEase</title><link rel="stylesheet" href="{% static 'css/style.css' %}"></head>
+<body><nav><a class="brand" href="{% url 'home' %}">ShopEase</a><div><a href="{% url 'home' %}">Products</a><a href="{% url 'cart' %}">Cart</a>{% if user.is_authenticated %}<span>Hello, {{user.username}}</span><a href="{% url 'logout' %}">Logout</a>{% else %}<a href="{% url 'login' %}">Login</a><a href="{% url 'register' %}">Register</a>{% endif %}</div></nav>
+<main>{% for message in messages %}<div class="message">{{message}}</div>{% endfor %}{% block content %}{% endblock %}</main><footer>© 2026 ShopEase E-commerce Store | CodeAlpha Task 1</footer><script src="{% static 'js/script.js' %}"></script></body></html>

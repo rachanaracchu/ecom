@@ -1,0 +1,3 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+<rect width="800" height="600" rx="40" fill="#eef7f4"/>
+<ellipse cx="400" cy="500" rx="210" ry="35" fill="#000" opacity=".10"/><path d="M270 420V300c0-190 260-190 260 0v120c0 120-260 120-260 0z" fill="#1d4b43"/><path d="M400 180v150" stroke="#43a884" stroke-width="18"/><rect x="375" y="260" width="50" height="55" rx="22" fill="#43a884"/><text x="400" y="555" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold" fill="#1d4b43">MOUSE</text></svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+<rect width="800" height="600" rx="40" fill="#f4f6fb"/>
+<ellipse cx="400" cy="500" rx="210" ry="35" fill="#000" opacity=".10"/><path d="M245 365V285c0-125 310-125 310 0v80" fill="none" stroke="#222b45" stroke-width="45" stroke-linecap="round"/>
+<rect x="185" y="335" width="125" height="140" rx="55" fill="#222b45"/><rect x="490" y="335" width="125" height="140" rx="55" fill="#222b45"/>
+<rect x="205" y="360" width="80" height="90" rx="35" fill="#ff6b35"/><rect x="515" y="360" width="80" height="90" rx="35" fill="#ff6b35"/><text x="400" y="555" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold" fill="#222b45">HEADPHONES</text></svg>

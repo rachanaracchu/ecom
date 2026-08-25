@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{document.querySelectorAll('.message').forEach(m=>setTimeout(()=>m.remove(),3500));});
